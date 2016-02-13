@@ -39,6 +39,8 @@
         'container' => 'nav',
         'container_id' => 'primary-nav'
       )); ?>
-      <div class="after-primary-nav-wrap"></div>
+      <div class="after-primary-nav-wrap">
+        <?php dynamic_sidebar('sidebar-3'); ?>
+      </div>
     </div>
   </header>
